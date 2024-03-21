@@ -1,0 +1,85 @@
+/* Estilos generales */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;  
+}
+
+.imagen-principal {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para la sección "Mi Tienda" */
+
+.seccion-tienda {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.titulo-tienda {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoria {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Estilos para los productos */
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.producto {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.imagen-producto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+}
+
+.nombre-producto {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.precio-producto {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+
+.pie-pagina {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
